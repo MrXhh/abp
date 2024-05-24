@@ -9,11 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\framework\src\Volo.Abp.Emailing\Volo.Abp.Emailing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\learn.Domain.Shared\learn.Domain.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.Emailing" />
     <PackageReference Include="Volo.Abp.Identity.Domain" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Identity" />
     <PackageReference Include="Volo.Abp.BackgroundJobs.Domain" />

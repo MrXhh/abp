@@ -9,11 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\framework\src\Volo.Abp.EntityFrameworkCore.Sqlite\Volo.Abp.EntityFrameworkCore.Sqlite.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\learn.Domain\learn.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" />
     <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" />
     <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" />
     <PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" />

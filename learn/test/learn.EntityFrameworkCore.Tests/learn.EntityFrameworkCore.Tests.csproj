@@ -9,12 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\learn.EntityFrameworkCore\learn.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\learn.Application.Tests\learn.Application.Tests.csproj" />
+    <ProjectReference Include="..\..\..\framework\src\Volo.Abp.EntityFrameworkCore.Sqlite\Volo.Abp.EntityFrameworkCore.Sqlite.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" />
+    <ProjectReference Include="..\..\src\learn.EntityFrameworkCore\learn.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\learn.Application.Tests\learn.Application.Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -9,11 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\framework\src\Volo.Abp.ObjectExtending\Volo.Abp.ObjectExtending.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\learn.Domain.Shared\learn.Domain.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.ObjectExtending" />
     <PackageReference Include="Volo.Abp.Account.Application.Contracts" />
     <PackageReference Include="Volo.Abp.Identity.Application.Contracts" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" />
